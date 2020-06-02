@@ -13,7 +13,7 @@ public class Worker {
     private String gender;
 
     @ExcelFileAttr(nameStr = "年龄",column = 2)
-    private int age;
+    private String age;
 
     public String getName() {
         return name;
@@ -31,11 +31,11 @@ public class Worker {
         this.gender = gender;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 }

@@ -1,5 +1,9 @@
+/build
+/.gradle
+/local.properties
+/.idea/
+##/gradle.properties
 *.iml
-.gradle/
-.idea/
-/gradle.properties
-/out/
+.DS_Store
+.externalNativeBuild
+.navigation
